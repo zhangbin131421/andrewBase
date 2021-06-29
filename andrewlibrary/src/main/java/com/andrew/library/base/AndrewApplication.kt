@@ -13,7 +13,7 @@ open class AndrewApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         instance = this
-//        MultiDex.install(this);
+        MultiDex.install(this)
         MMKV.initialize(this)// /data/user/0/com.szybkj.task/files/mmkv
 
     }

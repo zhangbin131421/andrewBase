@@ -51,9 +51,9 @@ dependencies {
 //    MultiDex.install(this);
     implementation 'com.android.support:multidex:1.0.3'
 //     ViewModel
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
 //     LiveData
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
 //    recyclerview
     api 'androidx.recyclerview:recyclerview:1.2.0'
 

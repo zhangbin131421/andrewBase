@@ -34,8 +34,8 @@ abstract class AndrewActivity : AppCompatActivity() {
         if (immersiveStatusBar){
             StatusBarUtil.setTranslucentStatus(this)
         }else{
-            StatusBarUtil.setStatusBarColor(this, ContextCompat.getColor(this, statusBarColor));
-            StatusBarUtil.setImmersiveStatusBar(this, fontIconDark);
+            StatusBarUtil.setStatusBarColor(this, ContextCompat.getColor(this, statusBarColor))
+            StatusBarUtil.setImmersiveStatusBar(this, fontIconDark)
         }
         setContentView(layoutId)
         loadingState.observe(this, LoadingObserver(this))
